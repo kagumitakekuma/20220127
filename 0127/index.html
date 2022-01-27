@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<body>
+  <div class="header">
+    <div class="header-left">Practice</div>
+    <div class="header-right">
+      <ul>
+        <li>会社概要</li>
+        <li>採用</li>
+        <li class="selected">お問い合わせ</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="contact-form">
+      <div class="form-title">お問い合わせ</div>
+        <form action="index.php" method="post" >
+ <div class="form-item">名前</div>
+<input type="text" name="name">
+<div class="form-item">年齢</div>
+ <select name="age">
+        <option value="未選択">未選択</option>
+          <option value="20代">20代</option>
+          <option value="30代">30代</option>
+    
+ </select>
+
+<div class="form-item">内容</div>
+        <textarea name="body"></textarea>
+
+        </form>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-left">
+      <ul>
+        <li>会社概要</li>
+        <li>採用</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </div>
+    <div class="like-box">
+      
+    </div>
+  </div>
+  </body>
+</html>
